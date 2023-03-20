@@ -12,6 +12,24 @@
     height: 450px;
   }
 
+  .video-slider-arrow-prev{
+    display: block;
+  }
+  
+  .video-slider-arrow-next{
+    display: block;
+  }
+
+  .s-review-card{
+    padding: 90px 25px 40px;
+  }
+  .s-review-card__title {
+    font-size: 23px;
+  }
+  .s-review-card__text {
+    font-size: 18px;
+    margin-bottom: 112px;
+}
   .header__logo {
     width: 100px;
   }
@@ -831,6 +849,22 @@
     font-size: 5em;
   }
 
+  .s-review-card{
+    padding: 40px 20px;
+  }
+  .s-review-card__title {
+    font-size: 18px;
+    margin-bottom: 18px;
+  }
+  .s-review-card__text {
+    font-size: 16px;
+    margin-bottom: 41px;
+  }
+  .s-review-card .s-banner__btn{
+    padding: 14px 27px;
+    font-size: 14px;
+  }
+
   .content__studlife .program-card {
     width: 40%;
   }
@@ -1227,6 +1261,21 @@
     text-align: center;
   }
 
+  .s-review-card {
+    padding: 110px;
+  }
+
+  .s-review-card__text {
+    margin-bottom: 75px;
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .s-review-card__title {
+    font-size: 32px;
+    margin-bottom: 32px;
+  }
+
   .content__studlife .program-card {
     width: 100%;
   }
@@ -1392,7 +1441,6 @@
   .company-slider__second__pagination .swiper-pagination-bullet,
   .company-slider__third__pagination .swiper-pagination-bullet,
   .gallery-slider__pagination .swiper-pagination-bullet,
-  .video-slider__pagination .swiper-pagination-bullet,
   .teacher-slider1__pagination .swiper-pagination-bullet,
   .teacher-slider2__pagination .swiper-pagination-bullet,
   .teacher-slider3__pagination .swiper-pagination-bullet,
@@ -1400,6 +1448,12 @@
     margin: 0 7px 8px;
     width: 7px;
     height: 7px;
+  }
+
+  .video-slider__pagination .swiper-pagination-bullet{
+    margin: 0 5px 8px !important;
+    width: 6px;
+    height: 6px;
   }
 
   .s-banner {
@@ -1641,6 +1695,12 @@
   .slider-arrow {
     top: auto;
     bottom: -10px;
+  }
+
+  .video-slider-arrow-prev,
+  .video-slider-arrow-next{
+    bottom: 0 !important;
+    padding: 5px !important;
   }
 
   .tabs__nav--mobile {

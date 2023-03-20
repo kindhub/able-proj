@@ -679,6 +679,10 @@
 				autoHeight: true,
 				bulletActiveClass: '.video-slider-pagination-active',
 				spaceBetween: 32,
+				navigation: {
+					prevEl: ".video-slider-arrow-prev",
+					nextEl: ".video-slider-arrow-next",
+				},
 				pagination: {
 					el: '.video-slider__pagination',
 					clickable: true,

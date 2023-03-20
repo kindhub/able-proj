@@ -957,6 +957,14 @@ button.swiper-pagination-bullet {
   border-radius: 20px;
 }
 
+.video-slider-arrow-prev{
+  display: none;
+}
+
+.video-slider-arrow-next{
+  display: none;
+}
+
 .company-slider,
 .company-slider__second,
 .company-slider__third,
